@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<h3>Payment</h3>
+<form>
+    
+    <label>Looking treatment for:</label>
+	           &nbsp;
+			   &nbsp;
+            <br><br>
+                        <button onclick="first">DebitCard</button>
+                        <button onclick="Second">CerbitCard</button>
+                        <button onclick="third">NetBanking</button>
+						<button onclick="four">Payment</button>
+						<button onclick="five">GooglePay</button>
+						<button onclick="six">PhonePay</button>
+						<button onclick="seven">AmazonPay</button>
+											
+						<br>	
+            <label for="fname">Accepted Cards</label>
+			<table> 
+			<tr>
+            <td align="right">Name on Card</td>
+            <td align ="left"><input type="text" id="cname" name="cardname" placeholder="Enter the name"></td>
+			</tr>
+			<br>
+			
+			<tr>
+            <td align="right">Credit card number</td>
+           <td align ="left"> <input type="text" id="ccnum" name="cardnumber" placeholder="Credit card number"></td>
+			</tr>
+			<br>
+			
+			<tr>
+            <td align="right">Exp Month</td>
+           <td align ="left"> <input type="text" id="expmonth" name="expmonth" placeholder="enter the month"></td>
+            </tr>
+			<br>
+			
+			<tr>
+			<td align="right">Exp Year</td>
+            <td align ="left"><input type="text" id="expyear" name="expyear" placeholder="enter year"></td>
+            </tr>
+			<br>
+			
+			<tr>
+			<td align="right">CVV</td>
+            <td align ="left"><input type="text" id="cvv" name="cvv" placeholder="cvv"></td>
+			</tr>
+           </table>
+											
+    <br><br>
+	<br><br>
+	
+    <input type="Submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
